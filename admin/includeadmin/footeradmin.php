@@ -1,0 +1,1 @@
+<div id="footer">@Trang web này của anh Thắng</div>

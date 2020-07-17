@@ -1,0 +1,234 @@
+body{
+	margin: 0px auto;
+	padding: 0px;
+	width: 1530px;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*-------------------------------header----------------------------*/
+#header{
+	margin: 0px auto;
+	padding: 0px;
+	padding-top: 12px;
+	background: #101010db;
+	height: 40px;
+	width: 1530px;
+	position: fixed;
+}
+.header-lable-a{
+	color: #ffffffab;
+	font-size: 19px;
+	margin-top: 5px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+.header-lable:hover{
+	cursor: pointer;
+	color: #ffffff;
+}
+.menu{
+	margin: -11px;
+	padding: 0px;
+	margin-right: 10px;
+	float: right;
+	color: white;
+	position: relative;
+	height: 50px;
+	width: 150px;
+}
+.menu-li{
+	text-align: center;
+	padding-top: 12px;
+}
+
+.menu-li-sub{
+	display: none;
+	position: absolute;
+	margin-top: 1px;
+	width: 150px;
+}
+.menu:hover .menu-li-sub {
+	cursor: pointer;
+	display: block;
+}
+.menu-li:hover{
+	background: #10101047;
+	cursor: pointer;
+}
+.menu-li{
+	height: 38px;
+}
+.sub-menu{
+	padding: 0px;
+	background: white;
+	margin: 0px;
+}
+.sub-menu li {
+	height: 30px;
+	width: 140px;
+	padding-left: 15px;
+	color: #101010;
+	padding-top: 7px;
+}
+.sub-menu li:hover{
+	background: #1010108a;
+}
+/*---------------------------------------sidebar----------------------------*/
+#sidebar{
+	margin: 0px;
+	margin-top: 40px;
+	padding: 0px;
+	background: #101010db;
+	width: 240px;
+	height: 665px;
+	float: left;
+	position: fixed;
+	overflow-y: scroll;
+}
+.sidebar-ul{
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: -37px;
+}
+.sidebar-ul-li{
+	padding-top: 8px;
+	height: 34px;
+	width: 184px;
+	padding-left: 18px;
+	font-size: 18px;
+	color: #ffffffab;
+}
+.sidebar-ul-li:hover{
+	background: #1010108a;
+	cursor: pointer;
+}
+.sidebar-sub-ul-li:hover{
+	background: #1010108a;
+	cursor: pointer;
+}
+.sidebar-sub-ul{
+	margin-left: -41px;
+}
+.sidebar-sub-ul-li{
+	padding-top: 8px;
+	height: 34px;
+	width: 160px;
+	padding-left: 40px;
+	font-size: 18px;
+	color: #ffffffab;
+}
+/*---------------------------------------container----------------------------*/
+#container{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 52px;
+	margin-bottom: 220px;
+	background: white;
+	/*height: 1500px;*/
+	width: 1290px;
+	float: right;
+}
+/*---------------------------------------footer----------------------------*/
+#footer{
+	float: right;
+	margin: 0px auto;
+	padding: 0px;
+	background: black;
+	height: 30px;
+	width: 1290px;
+	color: white;
+	text-align: center;
+}
+/*-------------------------addVideo--------------------------*/
+.addVideo-group{
+	padding: 10px;
+	padding-left: 25px;
+}
+.addVideo-group label{
+	font-size: 18px;
+	font-weight: bold;
+}
+.group-input{
+	border: 1px solid #00000078;
+	border-radius: 8px;
+	width: 1000px;
+	height: 26px;
+	font-size: 17px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-left: 22px;
+	outline: 0px;
+}
+.addVideo-group input[type='submit']{
+	border-radius: 10px;
+	height: 30px;
+	background: #086dd5db;
+	color: white;
+	width: 100px;
+}
+.thongbao{
+	color: red;
+}
+/*-------------------------slide--------------------------*/
+#chinhsua{
+	margin:0px;
+	padding: 0px;
+	/*height: 400px;*/
+	/*width: 1000px;*/
+	background: #eff0f5;
+	position: fixed;
+	margin-top: 100px;
+	margin-left: 300px;
+	border-radius: 20px;
+
+}
+.label-color{
+	font-size: 15px;
+	margin-left: 30px;
+}
+.group-input-color{
+	border: 1px solid #00000078;
+	border-radius: 8px;
+	height: 27px;
+	font-size: 17px;
+	outline: 0px;
+	margin-left: 10px;
+	padding-left: 15px;
+}
+#add-color-100{
+	margin-top: 10px;
+}
+#cke_ten{
+	width: 1000px;
+}
+.fieldset-add{
+	margin-left: 10px;
+	border: 1px dashed;
+	outline: 0px;
+	/*width: 1215px;*/
+}
+.fieldset-add legend{
+	margin-left: 30px;
+}
+.slide-img-list{
+	width: 300px;
+	height: 100px;
+}
+/*-------------------------product--------------------------*/
+.dsproduct-img{
+	width: 80px;
+	height: 60px;
+}
+.loaisp_option{
+	margin-left: 88px;
+    padding-left: 17px;
+    width: 300px;
+    font-size: 17px;
+    height: 30px;
+    border-radius: 15px;
+    outline: 0px;
+}
